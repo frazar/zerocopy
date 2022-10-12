@@ -1912,7 +1912,6 @@ mod sealed {
 // unsafe code. Thus, we seal them and implement it only for known-good
 // reference types. For the same reason, they're unsafe traits.
 
-#[allow(clippy::missing_safety_doc)] // TODO(fxbug.dev/99068)
 /// A mutable or immutable reference to a byte slice.
 ///
 /// `ByteSlice` abstracts over the mutability of a byte slice reference, and is
